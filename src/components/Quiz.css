@@ -1,0 +1,24 @@
+/* Quiz.css */
+.quiz-page {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh; 
+  }
+  
+  .concerns-button {
+    position: absolute;
+    bottom: 20px; 
+    left: 50%; 
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    background-color: #e34e4e; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .concerns-button:hover {
+    background-color: #fa7d7d; 
+  }
+  

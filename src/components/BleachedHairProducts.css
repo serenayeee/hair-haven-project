@@ -1,0 +1,31 @@
+.bleached-hair-products {
+    padding: 20px;
+  }
+  
+  .products-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .product-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .product-item img {
+    max-width: 100%;
+  }
+  
+  .product-item h3 {
+    margin: 10px 0;
+    font-size: 18px;
+  }
+  
+  .product-item p {
+    color: #666;
+  }
+  
+  
